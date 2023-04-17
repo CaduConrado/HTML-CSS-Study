@@ -1,7 +1,7 @@
 /* geral */
 
 html{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /*defininindo a fonte principal do meu projeto */
 }
 
 body {
@@ -78,3 +78,209 @@ nav::after {
 .nav-container li a:hover {
     color: #3381F3;
 }
+
+/*BANNER */
+#main-banner {
+    background: url('../img/banner6.jpg') no-repeat;
+    background-size: cover; /* para preencher o máximo da tela que o banner conseguir */
+    background-position: 0 55%;
+    position: relative; 
+    margin-top: 100px;
+}
+
+#search-form {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+}
+
+#search-form h1 {
+    font-size: 40px;
+}
+
+#search-form p {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#search-form input, #search-form select {
+    background-color: #FFF;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+#search-form input[type=submit] {
+    background-color: #3381F3;
+    text-transform: uppercase;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*PSEUDO SELETOR COM HOVER */
+#search-form input[type=submit]:hover { /*O hover faz com que quado o mouse passa por cima haja alguma animação */
+    background-color: #2B79EB;
+}
+
+/*SEÇÃO DE ÚLTIMOS EMPREGOS */
+#lastjobs-container {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lastjobs-container h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#lastjobs-container ul {
+    padding: 0;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+#lastjobs-container ul li {
+    list-style: none;
+    text-align: left;
+    border-bottom: solid 1px #CCC;
+    height: 80px;
+    position: relative;
+} 
+
+#lastjobs-container ul li:last-child {
+    border: none;
+}
+
+.clickarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*COMPANY IMG*/
+.company-box {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    padding-left: 1%;
+}
+
+.company-box img {
+    width: 100px;
+    margin-top: 2.5px;
+}
+
+.company-info {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 1opx;
+    text-align: left;
+    position: absolute;
+}
+
+.company-info h3 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    font-weight: bold;
+}
+
+/*COMPANY LOCALITY*/
+.locality {
+    color: #6D6D6D;
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    line-height: 80%; /*como o li tem 80px assim eu centralizo a locality na vertical*/
+}
+
+.locality i, .locality p {
+    display: inline-block;
+}
+
+.locality i {
+    margin-right: 5px;
+}
+
+/*company job type*/
+.job-type {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    padding-top: 30px;
+    right: 1%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.job-type span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.clt {
+    background-color: #735FEE;
+}
+
+.pj {
+    background-color: #5BBC2E;
+}
+
+.homeoffice {
+    background-color: #FF5A5F;
+}
+
+/*SEE MORE DIV*/
+.btnjobs-container {
+    margin-top: 50px;
+}
+
+.btn-jobs {
+    text-transform: uppercase;
+    background-color: #FFF;
+    color: #3381F3;
+    border: 2px solid #3381F3;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn-jobs:hover {
+    background-color: #3381F3;
+    color: #FFF;
+}
+
+
+
+
+

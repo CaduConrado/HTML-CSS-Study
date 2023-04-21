@@ -212,7 +212,7 @@ nav::after {
     width: 25%;
     position: absolute;
     height: 100%;
-    line-height: 80%; /*como o li tem 80px assim eu centralizo a locality na vertical*/
+    line-height: 80px; /*como o li tem 80px assim eu centralizo a locality na vertical*/
 }
 
 .locality i, .locality p {
@@ -235,6 +235,7 @@ nav::after {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
+    color: #FFF;
 }
 
 .job-type span {
@@ -575,6 +576,79 @@ footer .wrapper:after {
 .footer-bottom p {
     font-weight: 600;
     margin-top: 40px;
+}
+
+/*Responsive*/
+/*o media define como o programa irá trabalhar em determinados níveis de tela*/
+@media screen and (max-width: 1024px) { /*Quando a tela chegar a 1024px irá utilizar os estilos utilizados abaixo*/
+    #logo {
+        position: absolute;
+        left: 50px;
+    }
+
+    .nav-container ul {
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    .nav-container ul li {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    #search-form {
+        padding-top: 25em;
+        padding-bottom: 5em;
+    }
+
+    #search-form form {
+        width: 60%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #search-form input, #search-form select{
+        display: block;
+        margin: 0;
+        margin-bottom: 25px;
+        width: 100%;
+        border-width: 0;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+
+    #lastjobs-container.wrapper, #status-container.wrapper, #lastjobs-container.wrapper, #blog-container.wrapper, .wrapper { /*Realiza o "respiro" dos nossos elementos*/
+        max-width: 960px;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .company-box {
+        width: 46%;
+        padding-left: 1em;
+    }
+
+    .company-box .company-info h3 {
+        font-size: 1em;
+    }
+
+    .company-box .company-info p, .locality i, .locality p, .job-type span {
+        font-size: .8em;
+    }
+
+    .job-type {
+        right: 1em;
+    }
+
 }
 
 

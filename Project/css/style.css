@@ -649,6 +649,29 @@ footer .wrapper:after {
         right: 1em;
     }
 
+    #sendjobs-inner h2, #sendjobs-inner p {
+        text-shadow: .5px .5px #000;
+    }
+
+    .status-box {
+        width: 49.4%;
+        border: none;
+    }
+
+    .status-box:nth-child(1), .status-box:nth-child(3) {
+        border-right: 1px solid #DDD;
+    }
+    
+    .testmony-box {
+        width: 49.4%;
+    }
+
+    .article-box {
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin-bottom: 3em;
+    }
 }
 
 

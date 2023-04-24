@@ -731,6 +731,104 @@ footer .wrapper:after {
     .open {
         display: block !important;
     }
+
+    .main-banner {
+        margin-top: 4em;
+    }
+
+    #search-form {
+        padding-top: 15em;
+        padding-bottom: 5em;
+        width: 90%;
+    }
+
+    #search-form h1{
+        font-size: 1.6em;
+    }
+
+    #search-form p {
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+
+    #search-form form{
+        width: 80%;
+    }
+
+    #search-form input[type=submit]{
+        margin-bottom: 0;
+    }
+
+    #last-jobs-container {
+        padding: 5em 0;
+    }
+
+    .locality {
+        display: none;
+    }
+
+    .company-box .company-info {
+        margin-top: 1em;
+        margin-left: 1em;
+        width: 8em;
+    }
+
+    .company-box .company-info h3 {
+        font-size: .8em;
+    }
+
+    .job-type {
+        width: 22%;
+    }
+
+    #sendjobs-container {
+        background-position: 35% 0;
+        padding: 10em 0;
+    }
+
+    #sendjobs-container h2 {
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    #sendjobs-container p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .status-box {
+        margin-top: 3em;
+        width: 100%;
+    }
+
+    .status-box:nth-child(1), .status-box:nth-child(3) {
+        border: none;
+    }
+
+    .testmony-container {
+        padding: 5em 0;
+    }
+
+    .testmony-box {
+        width: 100%;
+    }
+
+    .testmony-container p {
+        margin-bottom: 1em;
+    }
+
+    .footer-box {
+        display: block;
+        width: 100%;
+    }
+
+    
+
+
+
+
+
+
 }
 
 

@@ -26,6 +26,11 @@ header {
     width: 100%;
 }
 
+/*HIDE ON DESKTOP*/
+.nav-container .fa-bars {
+    display: none;
+}
+
 /* navbar */
 nav {
     position: fixed;
@@ -671,6 +676,60 @@ footer .wrapper:after {
         display: block;
         padding: 0;
         margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-container .fa-bars {
+        display: block !important; /*OBSERVAR*/
+
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        height: 4em;
+    }
+
+    #logo {
+        left: 2em;
+        height: 2em;
+        width: 2em;
+        margin-top: 1em;
+    }
+
+    .fa-bars {
+        display: block;
+        font-size: 1.75em;
+        color: #CCC;
+        position: absolute;
+        right: 1.5em;
+        top: .75em;
+    }
+
+    .nav-container ul {
+        position: relative;
+        top: 4em;
+        height: 13em;
+        line-height: 3em;
+        display: none;
+    }
+
+    .nav-container ul li {
+        display: block;
+        background-color: #FFF;
+        margin: 0;
+        border-top: 1px solid #CCC;
+    }
+
+    .nav-container ul li a {
+        font-size: 1em;
+    }
+
+    .open {
+        display: block !important;
     }
 }
 

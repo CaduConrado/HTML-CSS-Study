@@ -605,7 +605,7 @@ footer .wrapper:after {
     color: #3381F3;
 }
 
-#find-jobs #lastjobs-container ul {
+#findjobs #lastjobs-container ul {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin-top: 0;
@@ -623,12 +623,12 @@ footer .wrapper:after {
     border-right: 1px solid #CCC;
 }
 
-#findjobs #type-filter li {
+#findjobs #type-filter ul li {
     display: inline-block;
     width: 20%;
     height: 50px;
     line-height: 50px;
-    border-bottom: 0;
+    border-bottom: none;
     border-left: 1px solid #CCC;
     border-right: 1px solid #CCC;
     padding-left: 1em;
@@ -697,7 +697,22 @@ footer .wrapper:after {
         padding-left: 2em;
         padding-right: 2em;
     }
+
+    /*FINDJOBS PAGE*/
+    #findjobs #search-form input[type=submit] {
+        margin-bottom: 0;
+    }
     
+    #findjobs #type-filter ul li {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+        box-sizing: border-box;
+    }
+
+    #findjobs #type-filter ul li:last-child {
+        border-bottom: none;
+        border-right: none;
+    }
 }
 
 @media screen and (max-width: 768px){

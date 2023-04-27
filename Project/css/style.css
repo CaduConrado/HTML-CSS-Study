@@ -961,12 +961,22 @@ footer .wrapper:after {
         width: 100%;
     }
 
-    
+    /*SEND JOBS PAGE*/
+    #sendjobs #sendjobs-container {
+        padding: 2em 0;
+    }
 
+    #sendjobs h1 {
+        font-size: 2em;
+        width: 60%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-
-
-
+    .input-box {
+        width: 80%;
+    }
 
 }
 

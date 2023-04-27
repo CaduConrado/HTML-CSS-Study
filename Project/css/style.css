@@ -583,6 +583,70 @@ footer .wrapper:after {
     margin-top: 40px;
 }
 
+/*FIND JOBS PAGE*/
+#findjobs #search-form {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%;
+    background-color: #3381F3;
+    border-top: 5px solid #0000E6;
+}
+
+´#findjobs #lastjobs-container {
+    margin-top: 3em;
+}
+
+#search-form input, #search-form select {
+    width: 20%;
+}
+
+#findjobs #search-form input[type=submit] {
+    background-color: #FFF;
+    color: #3381F3;
+}
+
+#find-jobs #lastjobs-container ul {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0;
+}
+
+#type-filter {
+    text-align: left;
+}
+
+#findjobs #type-filter ul {
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: #FFF;
+    border-right: 1px solid #CCC;
+}
+
+#findjobs #type-filter li {
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 0;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    padding-left: 1em;
+}
+
+#findjobs #type-filter li:nth-child(1),#findjobs #type-filter li:nth-child(2),#findjobs #type-filter li:nth-child(3) {
+    border-right: none;
+}
+
+#findjobs #type-filter label {
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    margin-left: .5em;
+}
+
+
+
 /*Responsive*/
 /*o media define como o programa irá trabalhar em determinados níveis de tela*/
 @media screen and (max-width: 1024px) { /*Quando a tela chegar a 1024px irá utilizar os estilos utilizados abaixo*/

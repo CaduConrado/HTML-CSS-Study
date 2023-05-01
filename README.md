@@ -1,5 +1,5 @@
 # FindJob 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/LICENSE) 
 
 # Sobre o projeto
 

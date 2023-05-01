@@ -5,9 +5,9 @@
 
 https://wmazoni-sds1.netlify.app
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+Este projeto foi desenvolvido durante o curso de HTML e CSS do canal **Hora de Codar** do [Matheus Battisti](https://www.youtube.com/@MatheusBattisti).
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+A aplicação consiste em um site de busca e anúncios de vagas de emprego, semelhante ao LinkeIn. O site foi desenvolvido para web e é totalmente responsivo, tanto para notebooks, tablets e disitivos mobile como celulares. 
 
 ## Layout mobile
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)

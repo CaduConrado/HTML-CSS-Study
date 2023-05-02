@@ -12,10 +12,12 @@ A aplicação consiste em um site de busca e anúncios de vagas de emprego, seme
 ## Primary Page
 ![Mobile 1](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Mobile1.jpeg)
 
-## Jobs Page
+## Find Jobs Page
 ![Mobile 2](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Mobile2.jpeg)
 
+## Add Jobs Page
 ![Mobile 3](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Mobile3.jpeg)
+
 
 ![Mobile 4](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Mobile4.jpeg)
 
@@ -25,7 +27,7 @@ A aplicação consiste em um site de busca e anúncios de vagas de emprego, seme
 ## Primary Page
 ![Web 1](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Web1.jpeg)
 
-## Jobs Page
+## Find Jobs Page
 ![Web 2](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Web2.jpeg)
  
 ## Testmony Page

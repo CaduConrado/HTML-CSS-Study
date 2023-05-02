@@ -12,6 +12,7 @@ A aplicação consiste em um site de busca e anúncios de vagas de emprego, seme
 ## Primary Page
 ![Mobile 1](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Mobile1.jpeg)
 
+## Jobs Page
 ![Mobile 2](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Mobile2.jpeg)
 
 ![Mobile 3](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Mobile3.jpeg)

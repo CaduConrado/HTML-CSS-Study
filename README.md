@@ -30,6 +30,7 @@ A aplicação consiste em um site de busca e anúncios de vagas de emprego, seme
 ## Article Page
 ![Web 4](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Web4.jpeg)
 
+## Footer
 ![Web 5](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Web5.jpeg)
 
 # Tecnologias utilizadas

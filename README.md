@@ -18,10 +18,12 @@ A aplicação consiste em um site de busca e anúncios de vagas de emprego, seme
 
 
 # 💻Layout web
+## Primary Page
 ![Web 1](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Web1.jpeg)
 
+## Jobs Page
 ![Web 2](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Web2.jpeg)
-
+ 
 ![Web 3](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Web3.jpeg)
 
 ![Web 4](https://github.com/CaduConrado/HTML-CSS-Study/blob/master/assets/Web4.jpeg)

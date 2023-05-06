@@ -46,5 +46,5 @@ A aplicação consiste em um site de busca e anúncios de vagas de emprego, seme
 
 # Autor
 
-[Carlos Eduardo Conrado](https://www.linkedin.com/in/carlos-eduardo-conrado-3b35561b1/)
+[Carlos Conrado](https://www.linkedin.com/in/carlos-eduardo-conrado-3b35561b1/)
 
